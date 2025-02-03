@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="config-container">
@@ -14,8 +15,60 @@
                 select category
             </h4>
             <div class="category-options">
-                <button class="category-option">Programming</button>
+                <button class="category-option active">Programming</button>
+                <button class="category-option">Geography</button>
+                <button class="category-option">Mathematics</button>
+                <button class="category-option">Entertainment</button>
             </div>
+        </div>
+
+        <div class="config-option">
+            <h4 class="option-title">
+                No. Of Questions
+            </h4>
+            <div class="questions-options">
+                <button class="question-option">5</button>
+                <button class="question-option active">10</button>
+                <button class="question-option">15</button>
+                <button class="question-option">20</button>
+                <button class="question-option">25</button>
+            </div>
+        </div>
+
+        <button class="start-quiz-btn">Start Quiz</button>
+    </div>
+
+    <div class="quiz-container">
+        <div class="quiz-header">
+            <h2 class="quiz-title">Quiz Application</h2>
+            <div class="quiz-timer">
+                <i class="fa-regular fa-clock"></i>
+                <p class="time-duration">15s</p>
+            </div>
+        </div>
+        <div class="quiz-content">
+            <h1 class="question-text">In Javascript, how do you create a function?</h1>
+            <ul class="answer-options">
+                <li class="answer-option">
+                    <p>create function myFunction()</p>
+                </li>
+                <li class="answer-option">
+                    <p>function myFunction()</p>
+                </li>
+                <li class="answer-option">
+                    <p>def function myFunction()</p>
+                </li>
+                <li class="answer-option">
+                    <p>func myFunction()</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="quiz-footer">
+            <p class="question-status"><b>2</b> of <b>10</b> Questions</p>
+            <button class="next-question-btn">Next
+                <i class="fa-solid fa-arrow-right"></i></button>
+
         </div>
     </div>
     
